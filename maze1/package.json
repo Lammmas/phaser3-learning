@@ -1,0 +1,23 @@
+{
+  "name": "maze1",
+  "version": "0.0.1",
+  "main": "src/game.ts",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "rollup --config rollup.config.js",
+    "build": "rollup --config rollup.config.js",
+    "watch": "rollup --watch --config rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-html": "^0.2.0",
+    "@rollup/plugin-node-resolve": "^8.4.0",
+    "@rollup/plugin-replace": "^2.3.3",
+    "@rollup/plugin-typescript": "^5.0.2",
+    "phaser": "^3.24.1",
+    "rollup": "^2.23.0",
+    "rollup-plugin-serve": "^1.0.3",
+    "tslib": "^2.0.0",
+    "typescript": "^3.9.7"
+  }
+}
